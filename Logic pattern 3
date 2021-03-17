@@ -17,7 +17,7 @@ public class Main
                     System.out.print(" ");
                 }
             }
-        System.out.println();
+        System.out.println();   //start at a new line 
      
         }
     }
@@ -28,3 +28,8 @@ output
 *  *
 *  *
 ****
+
+Logic - 
+we want to print stars everywhere inside that if condition.
+we dont want to print stars at certain places hence we are using else statement.
+
