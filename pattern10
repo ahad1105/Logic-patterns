@@ -7,13 +7,13 @@ public class logic
         {
             for(int j=1;j<=4;j++)
             {
-                if(j<i)
+                if(j<i)                    //it depends on the no of columns , so for first row printing starts from first column , for second row on second column and so on..
                 {
-                  System.out.print(" ");
+                  System.out.print(" ");     // hence if j(column number) is less than row number then we are printing space             
                 }
                 else
                 {
-                    System.out.print(s.charAt(j-1));
+                    System.out.print(s.charAt(j-1));     //charAt() is use to print particular value of a given index, we take j-1 because character indexing goes from 0/1 to n-1     
                 }
             }
         System.out.println();
