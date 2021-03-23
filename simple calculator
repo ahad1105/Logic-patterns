@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+        int n;
+        int n1;
+        int sum;
+        int difference;
+        int multiply;
+        int divide;
+        String operation;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        System.out.println("First number is:" +n);
+        n1 = sc.nextInt();
+        System.out.println("Second number is:" +n1);
+        operation = sc.nextLine();
+        System.out.println("The operation is" +operation);
+        if(operation == sum);
+        {
+            sum = n + n1;
+            System.out.println("Thier sum is:" +sum);
+        }
+        if(operation == difference);
+        {
+            difference = n-n1;
+            System.out.println("Thier difference is:" +difference);
+        }
+        if(operation == multiply);
+        {
+            multiply = n*n1;
+            System.out.println("Thier product is:" +multiply);
+        }
+        else
+        {
+            divide = n/n1;
+            System.out.println("Thier divide is:" +divide);
+        }
+        
+        
+        
+    }
+}
