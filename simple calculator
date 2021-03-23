@@ -1,44 +1,26 @@
-import java.util.Scanner;
+import java.util.*;
 public class Main
 {
     public static void main(String args[])
     {
-        int n;
-        int n1;
-        int sum;
-        int difference;
-        int multiply;
-        int divide;
-        String operation;
+        
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        System.out.println("First number is:" +n);
-        n1 = sc.nextInt();
-        System.out.println("Second number is:" +n1);
-        operation = sc.nextLine();
-        System.out.println("The operation is" +operation);
-        if(operation == sum);
+        String op = sc.nextLine();
+        System.out.println("Enter operation:" +op);
+        int n1 = sc.nextInt();
+        System.out.println("Enter first number: " +n1);
+        int n2 = sc.nextInt();
+        System.out.println("Enter second number: " +n2);
+        if(op == "sum")
         {
-            sum = n + n1;
-            System.out.println("Thier sum is:" +sum);
-        }
-        if(operation == difference);
-        {
-            difference = n-n1;
-            System.out.println("Thier difference is:" +difference);
-        }
-        if(operation == multiply);
-        {
-            multiply = n*n1;
-            System.out.println("Thier product is:" +multiply);
+            int add = n1 + n2;
+            System.out.println(sum);
         }
         else
         {
-            divide = n/n1;
-            System.out.println("Thier divide is:" +divide);
+            int subract = n1 - n2;
+            System.out.println(difference);
         }
-        
-        
         
     }
 }
