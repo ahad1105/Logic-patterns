@@ -5,22 +5,33 @@ public class Main
     {
         
         Scanner sc = new Scanner(System.in);
-        String op = sc.nextLine();
-        System.out.println("Enter operation:" +op);
         int n1 = sc.nextInt();
         System.out.println("Enter first number: " +n1);
         int n2 = sc.nextInt();
         System.out.println("Enter second number: " +n2);
-        if(op == "sum")
+        int op = 
+        if(op == 1);
         {
             int add = n1 + n2;
-            System.out.println(sum);
+            System.out.println("The output of the two numbers is" +add);
         }
-        else
+        if(op == 2);
         {
             int subract = n1 - n2;
-            System.out.println(difference);
+            System.out.println("The subract of the two numbers is" +subract);
         }
+        if(op == 3);
+        {
+            int multiply = n1*n2;
+            System.out.println("The subract of the two numbers is" +multiply);
+            
+        }
+        if(op == 4);
+        {
+            int divide = n1/n2;
+            System.out.println("The dividend of the two numbers is" +divide);
+        }
+        
         
     }
 }
