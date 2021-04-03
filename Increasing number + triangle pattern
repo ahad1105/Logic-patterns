@@ -1,0 +1,19 @@
+public class Logic
+{
+
+    public static void main(String args[])
+    {
+        for(int i=1;i<=5;i++)
+        {
+            int p = 1;
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(p+++" ");
+            }
+        System.out.println();
+        }
+    
+    }
+}   
+
+logic - increasing triangle pattern + variable p is constant in every line so it will be instantiated before running the loop and inside the loop we would just increment the variable p
