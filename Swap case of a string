@@ -1,0 +1,11 @@
+//swap case of a string 
+public class Main
+{
+    public static void main(String args[])
+    {
+        String str = "yopierre";
+        System.out.println(str.toUpperCase());
+        System.out.println(str.toLowerCase());
+        
+    }
+}
