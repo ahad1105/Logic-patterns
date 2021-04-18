@@ -1,0 +1,28 @@
+Special Number = number in which the sum of the digits + the product of the digits will be the original number 
+eg - 59 = 5+9 + 5*9
+public class Main
+{
+    public static void main(String args[]) 
+    {
+        int n = 59;    
+        int m = n;
+        int sum = 0;
+        int prod = 1;
+        while(n!=0)
+        {
+            int d = n%10;
+            sum = sum + d;       
+            prod = prod*d;
+            n = n/10;
+            
+        }
+        if(sum + prod == m)      //checks for the condition
+        {
+            System.out.println("its a special number");
+        }
+        else
+        {
+            System.out.println("Its not a special number");  
+        }
+    }
+}
