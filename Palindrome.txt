@@ -1,0 +1,25 @@
+
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        int n = 121;                            //initialise variables
+        int m = n;
+        int reverse = 0;
+        while(n!=0)                            //setup the logic 
+        {
+            int d = n%10;
+            reverse = reverse*10 + d;
+            n = n/10;
+        }
+        if(reverse == m)                                //check for the condition 
+        { 
+            System.out.println("yes a palindrome");
+        }
+        else
+        {
+            System.out.println("Not a palindrome");
+        }
+    }
+}
