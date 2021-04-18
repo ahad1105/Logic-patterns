@@ -1,0 +1,15 @@
+
+public class Numbers
+{
+    public static void main(String args[])
+    {
+        int n = 268;          //initialise digits
+        int m = n;
+        while(n!=0)            //setup the logic using while loop 
+        {
+            int d = n%10;              //logic for individual digits
+            n = n/10;
+            System.out.println(d);   
+        }
+    }
+}
