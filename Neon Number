@@ -1,0 +1,27 @@
+Neon number - is a number where sum of the digits of square of a number is equal to the number
+eg - 9 = 9*9 = 81 = 8+1 = 9
+
+public class Number
+{
+    public static void main(String args[])
+    {
+        int n = 9;
+        int m = n;
+        int sum = 0;
+        n = n*n;
+        while(n!=0)
+        {
+            int d = n%10;
+            sum = sum + d;
+            n = n/10;
+        }
+        if(sum == m)
+        {
+            System.out.println("yes a neon number");
+        }
+        else
+        {
+            System.out.println("not a neon number");
+        }
+    }
+}
