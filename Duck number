@@ -1,0 +1,27 @@
+public class Main
+{
+    public static void main(String args[])
+    {
+        int n = 402;
+        int m = n;
+        int sum = 0;
+        while(n!=0)
+        {
+            int d = n%10;
+            if(d==0)
+            sum++;
+            
+            n = n/10;
+        }
+        if(sum > 0)
+        {
+            System.out.println("Its a Duck number");
+        }
+        else
+        {
+            System.out.println("Its not a Duck number");
+        }
+    }
+} 
+
+A number which has zeroes present in them. 
